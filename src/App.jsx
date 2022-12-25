@@ -1,10 +1,14 @@
 import React, { Fragment } from "react";
-import Button from "./components/Button/Button";
+import ButtonCont from "./container/ButtonCont/ButtonCont";
+import ButtonFun from "./components/Button/ButtonFun";
 
 function App() {
   return (
     <>
-      <Button />
+      <ButtonCont />
+      <div>
+        <ButtonFun />
+      </div>
     </>
   );
 }
